@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    //Mark: - variable
+    //Mark: - variable and properties
     var diceNameArr = [ UIImage(named: "DiceOne"),
                        UIImage(named: "DiceTwo"),
                        UIImage(named: "DiceThree"),
