@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var DiceImgOne: UIImageView!
+    @IBOutlet weak var DiceImgTwo: UIImageView!
     
     //Mark: - variable and properties
     var diceNameArr = [ UIImage(named: "DiceOne"),
@@ -19,8 +21,7 @@ class ViewController: UIViewController {
                        UIImage(named: "DiceSix"),
     ]
     
-    @IBOutlet weak var DiceImgOne: UIImageView!
-    @IBOutlet weak var DiceImgTwo: UIImageView!
+    //MARK: - view life cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
