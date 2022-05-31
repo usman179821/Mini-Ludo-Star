@@ -26,6 +26,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+    
+    //MARK: - Actions
     @IBAction func RollBtnTapped(_ sender: Any) {
         
         let index = Int.random(in: 0..<diceNameArr.count)
